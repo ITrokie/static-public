@@ -1,0 +1,29 @@
+{
+  "name": "static-server-module",
+  "version": "1.0.0",
+  "description": "node手写http静态文件服务器，支持命令行运行、自动缓存",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ITrokie/static-server-module.git"
+  },
+  "author": "ITrokie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ITrokie/static-server-module/issues"
+  },
+  "homepage": "https://github.com/ITrokie/static-server-module#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "debug": "^4.1.1",
+    "handlebars": "^4.1.0",
+    "mime": "^2.4.0",
+    "yargs": "^13.2.1"
+  },
+  "bin": {
+    "static-server": "bin/server"
+  }
+}
