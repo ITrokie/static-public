@@ -123,6 +123,4 @@ class Server {
     }
 }
 
-const server = new Server();
-server.start();
 module.exports = Server;
